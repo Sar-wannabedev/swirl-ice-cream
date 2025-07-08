@@ -1,0 +1,86 @@
+
+body {
+  font-family: 'Poppins' , sans-serif ;
+  margin: 0;
+  padding: 0;  
+  background: #f4f4f4;
+  color: #222;
+} 
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+} 
+
+header {
+  padding: 2rem;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+main {
+  padding: 1rem 2rem;
+}
+
+ol {
+  padding-left: 1.2rem;
+}
+
+a {
+  color: #ba2d0b;
+  font-weight: 600;
+  transition: 100ms;
+  border-radius: 0.25 radius;
+}
+
+a:hover {
+  color: #d5f2e3;
+  background-color: #ba2d0b;
+  padding: 0.1rem 0.3rem;
+}
+
+.button-area {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+button {
+ background-color: #6c5ce7;
+ color: #ffffff;
+ border: #6c8ce9; 
+ padding: 12px 24px;
+ font-size: 16px;
+ border-radius: 10px;
+ cursor: pointer;
+ position: relative;
+ transition: all 0.3s ease;
+}
+
+button:hover {
+color: white;
+background-color: #5a47ea;
+padding: 0.1rem 0.3rem;
+}
+
+button::before{
+display: inline-block;
+transition: content 0.3s ease;
+}
+
+
+footer{
+background-color: #1e1e1e;
+color: #eee;
+padding: 1rem;
+text-align: center;
+margin-top: auto;
+}
+
+.monster-pic {
+  width: 300px;
+  border-radius: 12px;
+  margin-top: 20px;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.3);
+}
